@@ -18,7 +18,7 @@
 }
 
 .footer{
-    background-color: #023E8A;
+    background-color: black;
 }
 
 .icon-white{            /* Arrow icon at bottom of page */
@@ -82,3 +82,9 @@
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
 }
+
+.navbar-brand img {
+    width: 50px; /* Change to the desired size */
+    height: auto;
+  }
+  
