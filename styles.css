@@ -1,4 +1,5 @@
 /* ----------------- Class CSS ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 .about{
     width:400px;
@@ -21,12 +22,17 @@
     background-color: black;
 }
 
+.main-container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .icon-white{            /* Arrow icon at bottom of page */
     color: #FFFFFF;
 }
 
 .nb-background-color{   /* navbar background color */
-    background-color: #023E8A;
+    background-color: #EF8354;
 }
 
 .nbMenuItem{               /* navbar link text properties */
@@ -53,7 +59,8 @@
 }
 
 .showcase{
-    background-color: #8fa3ab; /*#0096c7*/
+    background-color: #BFC0C0; /*#0096c7*/
+    font-family: "Outfit";
 }
 
 /* ----------------- ID CSS ----------------- */
