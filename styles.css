@@ -1,77 +1,80 @@
-/* ----------------- Class CSS ----------------- */
+/* CSS from your existing file */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-.about{
-    width:400px;
+* {
+    font-family: "Outfit";
+}
+
+.about {
+    width: 400px;
     margin: auto;
 }
 
-.about-team{
-    color:rgb(82, 81, 81)
+.about-team {
+    color: rgb(82, 81, 81);
 }
 
-.authors{
+.authors {
     background-color: #dbe3e7;
 }
 
-.body{
+.body {
     background-color: rgb(90, 92, 92);
 }
 
-.footer{
+.footer {
     background-color: black;
 }
 
-.main-container{
+.main-container {
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.icon-white{            /* Arrow icon at bottom of page */
+.icon-white {
     color: #FFFFFF;
 }
 
-.nb-background-color{   /* navbar background color */
+.nb-background-color {
     background-color: #EF8354;
 }
 
-.nbMenuItem{               /* navbar link text properties */
-    font-size:25px;
+.nbMenuItem {
+    font-size: 25px;
     margin-left: 10px;
     margin-right: 10px;
+    color: white;
 }
 
-.overview{
+.overview {
     background-color: #dbe3e7;
+    padding: 0; /* Remove extra padding */
 }
 
-.ovPadLeft{
-    padding-left: 20px;
+.ovPadLeft {
+    padding-left: 0; /* Override default padding */
 }
 
-.ovPadRight{  
-    padding-right: 20px;
+.ovPadRight {
+    padding-right: 0; /* Override default padding */
 }
 
-.procedure{
+.procedure {
     background-color: #dbe3e7;
     padding: 1px;
 }
 
-.showcase{
-    background-color: #BFC0C0; /*#0096c7*/
+.showcase {
+    background-color: #BFC0C0;
     font-family: "Outfit";
 }
 
-/* ----------------- ID CSS ----------------- */
-
-/* -----------------Underline Animation CSS -----------------*/
+/* Underline Animation */
 .hover-underline-animation {
     display: inline-block;
     position: relative;
-    /*color: #0087ca;*/
-  }
-  
+}
+
 .hover-underline-animation:after {
     content: '';
     position: absolute;
@@ -81,17 +84,15 @@
     bottom: 0;
     left: 0;
     background-color: #eae6e6;
-    /*transform-origin: bottom right;*/
     transition: transform 0.35s ease-out;
 }
-  
+
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
-    /*transform-origin: bottom left;*/
 }
 
+/* Navbar logo */
 .navbar-brand img {
-    width: 50px; /* Change to the desired size */
+    width: 50px;
     height: auto;
-  }
-  
+}
