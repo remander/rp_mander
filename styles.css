@@ -31,6 +31,44 @@
     padding-right: 10%;
 }
 
+/* Adjust padding for larger screens */
+@media (min-width: 1000px) {
+    .main-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+/* Adjust padding for medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .main-container {
+        padding-left: 7%;
+        padding-right: 7%;
+        font-size: 0.7rem;
+    }
+}
+
+/* Adjust padding for smaller screens */
+@media (max-width: 767px) {
+    .main-container {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .showcase h1 {
+        font-size: 2em;
+    }
+
+    .overview p{
+        font-size: 1em;
+    }
+
+    .overview h1 {
+        font-size: 1.5em;
+    }
+}
+
+
 .icon-white {
     color: #FFFFFF;
 }
@@ -66,7 +104,6 @@
 
 .showcase {
     background-color: #BFC0C0;
-    font-family: "Outfit";
 }
 
 /* Underline Animation */
