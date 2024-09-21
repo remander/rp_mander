@@ -37,6 +37,18 @@
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    .showcase h1, .procedure h1 {
+        font-size: 3.5em;
+    }
+
+    .overview p, .procedure h2, .overview li{
+        font-size: 1.2em;
+    }
+
+    .overview h1 {
+        font-size: 2.5em;
+    }
 }
 
 /* Adjust padding for medium screens */
@@ -55,17 +67,18 @@
         padding-right: 3%;
     }
 
-    .showcase h1 {
+    .showcase h1, .procedure h1 {
         font-size: 2em;
     }
 
-    .overview p{
+    .overview p, .procedure h2, {
         font-size: 1em;
     }
 
     .overview h1 {
         font-size: 1.5em;
     }
+ 
 }
 
 
