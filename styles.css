@@ -146,3 +146,32 @@
     width: 50px;
     height: auto;
 }
+
+.section-list {
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0;  /* Remove left margin */
+    list-style-position: inside; /* Ensure bullet points are inside the list item */
+}
+
+.section-list li {
+    padding-left: 0 px; /* Add a bit of padding to control indentation if needed */
+}
+
+.detailed-list {
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0;  /* Remove left margin */
+    list-style-position: outside; /* Ensure bullet points are inside the list item */
+}
+
+.detailed-list li {
+    padding-left: ; /* Add a bit of padding to control indentation if needed */
+}
+
+.inside-list {
+    font-size: 1rem;
+
+}
+
+.inside-list li {
+
+}
