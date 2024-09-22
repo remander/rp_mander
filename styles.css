@@ -148,9 +148,9 @@
 }
 
 .section-list {
-    padding-left: 0; /* Remove default padding */
+    padding-left: 10px; /* Remove default padding */
     margin-left: 0;  /* Remove left margin */
-    list-style-position: inside; /* Ensure bullet points are inside the list item */
+    list-style-position: outside; /* Ensure bullet points are inside the list item */
 }
 
 .section-list li {
@@ -158,7 +158,7 @@
 }
 
 .detailed-list {
-    padding-left: 0; /* Remove default padding */
+    padding-left: 10px; /* Remove default padding */
     margin-left: 0;  /* Remove left margin */
     list-style-position: outside; /* Ensure bullet points are inside the list item */
 }
