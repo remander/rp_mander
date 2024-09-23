@@ -5,8 +5,9 @@
 }
 
 .about {
-    width: 400px;
+    width: 40rem;
     margin: auto;
+    height: auto;
 }
 
 .about-team {
