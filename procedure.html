@@ -81,12 +81,13 @@
           <div class="text-center">
             <h1>Experiment Procedure</h1>
             <h2>
-              The outlined steps below gives a brief overview of the experiment.
+              The outlined steps below give a brief overview of the experiment.
             </h2>
           </div>
 
           <hr />
           <br />
+
           <table
             class="table table-hover text-center table-light table-bordered border-dark-subtle"
           >
@@ -97,79 +98,204 @@
                 <th><h3>Image</h3></th>
               </tr>
             </thead>
+
             <tbody class="table-group-divider">
               <tr class="align-middle">
-                <!-- scope = row specifices header cell is the header is the header for the row-->
                 <th scope="row" class="table-secondary">
                   <h3>1</h3>
                 </th>
                 <td>
-                  <h3 class="howTo">Start Python Flask Server</h3>
+                  <div class="accordion" id="accordionStep1">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingStep1">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseStep1"
+                          aria-expanded="false"
+                          aria-controls="collapseStep1"
+                        >
+                          <h3 class="howTo">Start Python Flask Server</h3>
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseStep1"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingStep1"
+                      >
+                        <div class="accordion-body">
+                          <!-- You can add more detailed description here later -->
+                          Detailed explanation about starting the Python Flask
+                          server.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
                 <td class="text-center">
                   <img src="img/python-logo.png" alt="Python Logo" />
                 </td>
               </tr>
-            </tbody>
-            <tbody class="table-group-divider">
+
               <tr class="align-middle">
-                <!-- scope = row specifices header cell is the header is the header for the row-->
                 <th scope="row" class="table-secondary">
                   <h3>2</h3>
                 </th>
                 <td>
-                  <h3 class="howTo">
-                    Power circuit on. SR-04/05 transmits data to Nano IOT
-                  </h3>
+                  <div class="accordion" id="accordionStep2">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingStep2">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseStep2"
+                          aria-expanded="false"
+                          aria-controls="collapseStep2"
+                        >
+                          <h3 class="howTo">
+                            Power circuit on. SR-04/05 transmits data to Nano
+                            IOT.
+                          </h3>
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseStep2"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingStep2"
+                      >
+                        <div class="accordion-body">
+                          <!-- You can add more detailed description here later -->
+                          Detailed explanation about powering on the circuit and
+                          data transmission.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
                 <td class="text-center">
                   <img src="img/range-finder-tp.png" alt="Range Finder" />
                 </td>
               </tr>
-            </tbody>
-            <tbody class="table-group-divider">
+
               <tr class="align-middle">
-                <!-- scope = row specifices header cell is the header is the header for the row-->
                 <th scope="row" class="table-secondary">
                   <h3>3</h3>
                 </th>
                 <td>
-                  <h3 class="howTo">
-                    Nano IoT connects to PC via Wifi and sends data to Arduino
-                    program
-                  </h3>
+                  <div class="accordion" id="accordionStep3">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingStep3">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseStep3"
+                          aria-expanded="false"
+                          aria-controls="collapseStep3"
+                        >
+                          <h3 class="howTo">
+                            Nano IoT connects to PC via Wifi and sends data to
+                            Arduino program.
+                          </h3>
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseStep3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingStep3"
+                      >
+                        <div class="accordion-body">
+                          <!-- You can add more detailed description here later -->
+                          Detailed explanation about Nano IoT connecting to the
+                          PC.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
                 <td class="text-center">
                   <img src="img/nano33-iot3.png" alt="Nano" />
                 </td>
               </tr>
-            </tbody>
-            <tbody class="table-group-divider">
+
               <tr class="align-middle">
-                <!-- scope = row specifices header cell is the header is the header for the row-->
                 <th scope="row" class="table-secondary">
                   <h3>4</h3>
                 </th>
                 <td>
-                  <h3 class="howTo">
-                    Arduino and Falsk server communicate via HTTP request
-                  </h3>
+                  <div class="accordion" id="accordionStep4">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingStep4">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseStep4"
+                          aria-expanded="false"
+                          aria-controls="collapseStep4"
+                        >
+                          <h3 class="howTo">
+                            Arduino and Flask server communicate via HTTP
+                            request.
+                          </h3>
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseStep4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingStep4"
+                      >
+                        <div class="accordion-body">
+                          <!-- You can add more detailed description here later -->
+                          Detailed explanation about communication between
+                          Arduino and Flask server.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
                 <td class="text-center">
                   <img src="img/arduino-logo.png" alt="Arduino Logo" />
                 </td>
               </tr>
-            </tbody>
-            <tbody class="table-group-divider">
+
               <tr class="align-middle">
-                <!-- scope = row specifices header cell is the header is the header for the row-->
                 <th scope="row" class="table-secondary">
                   <h3>5</h3>
                 </th>
                 <td>
-                  <h3 class="howTo">
-                    Flask connects to Firebase and sends data for storage
-                  </h3>
+                  <div class="accordion" id="accordionStep5">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingStep5">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseStep5"
+                          aria-expanded="false"
+                          aria-controls="collapseStep5"
+                        >
+                          <h3 class="howTo">
+                            Flask connects to Firebase and sends data for
+                            storage.
+                          </h3>
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseStep5"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingStep5"
+                      >
+                        <div class="accordion-body">
+                          <!-- You can add more detailed description here later -->
+                          Detailed explanation about Flask and Firebase
+                          connection.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </td>
                 <td class="text-center">
                   <img src="img/firebase-logo.png" alt="Firebase Logo" />
