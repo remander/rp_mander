@@ -176,6 +176,7 @@ img {
     padding-left: 10px; /* Remove default padding */
     margin-left: 0;  /* Remove left margin */
     list-style-position: outside; /* Ensure bullet points are inside the list item */
+    font-size: 1.1rem;
 }
 
 .section-list li {
@@ -186,6 +187,7 @@ img {
     padding-left: 10px; /* Remove default padding */
     margin-left: 0;  /* Remove left margin */
     list-style-position: outside; /* Ensure bullet points are inside the list item */
+    font-size: 1.1rem;
 }
 
 .detailed-list li {
