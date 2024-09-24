@@ -224,3 +224,7 @@ img {
     border: none; /* Removes the default border */
     margin: 40px auto;
   }
+
+.card-text {
+    font-size: 1rem;
+}
