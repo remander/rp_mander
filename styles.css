@@ -46,7 +46,7 @@
         font-size: 1.2em;
     }
 
-    p {
+    p , .accordion-body{
         font-size: 1.35em;
     }
 
@@ -75,6 +75,32 @@
     .main-container {
         padding-left: 3%;
         padding-right: 3%;
+    }
+
+    .showcase h1, .procedure h1 {
+        font-size: 2em;
+    }
+
+    .overview p, .procedure h2 {
+        font-size: 1em;
+    }
+
+    .overview h1 {
+        font-size: 1.5em;
+    }
+
+    /* Further scale down images for small screens */
+    img {
+        max-width: 70%;
+        height: auto;
+    }
+}
+
+/* Adjust padding for extra small screens */
+@media (max-width: 500px) {
+    .main-container {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .showcase h1, .procedure h1 {
