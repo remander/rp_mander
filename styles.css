@@ -31,6 +31,11 @@
     padding-right: 10%;
 }
 
+/* Ensure images do not overflow their container */
+.main-container, .showcase {
+    overflow: hidden; /* Hide overflow */
+}
+
 /* Adjust padding for larger screens */
 @media (min-width: 1000px) {
     .main-container {
@@ -46,7 +51,7 @@
         font-size: 1.2em;
     }
 
-    p , .accordion-body{
+    p, .accordion-body {
         font-size: 1.35em;
     }
 
@@ -129,24 +134,21 @@ img {
 }
 
 /* Specific styles for showcase images */
-/* Specific styles for showcase images */
 .showcase img {
     border-radius: 15px; /* Add rounded corners */
-    max-width: 100%; /* Ensure image fits within its container */
-    height: auto; /* Maintain aspect ratio */
     display: block;
     margin: 0 auto; /* Center the image horizontally */
 }
 
+/* Showcase image class */
 .showcase-img {
     border-radius: 15px; /* Add rounded corners */
-    width: 90%; /* Adjust this to control the width */
+    width: 50rem; /* Adjust this to control the width */
     height: auto; /* Maintain the aspect ratio */
     max-width: 500px; /* Optional: limit the max size to prevent overly large images */
     margin-left: auto; /* Centering horizontally if within a flex or container */
     margin-right: auto; /* Same for horizontal centering */
 }
-
 
 .icon-white {
     color: #FFFFFF;
@@ -239,23 +241,19 @@ img {
     font-size: 1rem;
 }
 
-.inside-list li {
-
-}
-
 .custom-hr {
     width: 100%; /* Ensures the line spans across the screen */
     height: 5px; /* Adjust the thickness of the line */
     background-color: #000; /* Adjust the color of the line */
     border: none; /* Removes the default border */
     margin: 40px auto;
-  }
+}
 
 .card-text {
     font-size: 1rem;
 }
 
 .icon {
-    width:5rem;
-    height:auto;
+    width: 5rem;
+    height: auto;
 }
