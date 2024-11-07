@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="card-styles.css" />
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -116,198 +117,180 @@
       </section>
 
       <!-- Overview -->
-      <section class="overview text-dark text-left rounded-4 mb-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8">
-              <h1 class="mt-5">Background</h1>
-              <ul class="section-list">
-                <li>
-                  Basketballs endure repeated forces, especially from dribbling,
-                  causing material deformation.
-                </li>
-                <li>
-                  Elastic collisions explain how a basketball bounces after
-                  interacting with the ground.
-                </li>
-                <li>
-                  Regulation basketballs vary in size (29.5-30.7 inches) and air
-                  pressure (7.5-8.5 PSI).
-                </li>
-                <li>
-                  High-tech methods track bounce height but not air pressure
-                  retention.
-                </li>
-                <li>
-                  Using an automated drop system and air pressure gauge offers
-                  better insights.
-                </li>
-                <li>
-                  The study evaluates which basketballs retain air pressure and
-                  bounce best.
-                </li>
-              </ul>
-            </div>
-            <div
-              class="col-sm-2 d-flex justify-content-center align-items-center"
-            >
+      <section class="light rounded-4">
+        <div class="container py-2 rounded-4">
+          <article class="postcard light blue" id="background">
+            <a class="postcard__img_link" href="#">
               <img
-                src="img/drop-tower-setup.png"
-                alt="Drop Tower Setup"
-                class="img-fluid showcase-img"
-                style="width: 100%; height: auto"
+                class="postcard__img"
+                src="https://picsum.photos/1000/1000"
+                alt="Image Title"
               />
-            </div>
-            <hr class="custom-hr" />
-          </div>
-
-          <div class="row">
-            <div class="col-sm-8">
-              <h1 class="">Abstract</h1>
-              <ul class="section-list">
-                <li>
-                  <strong>Basis</strong>: Basketballs are made from various
-                  elastic materials for performance and durability.
-                </li>
-                <li>
-                  <strong>Independent variable</strong>: type of basketball
-                  model.
-                </li>
-                <li>
-                  <strong>Dependent variables</strong>: Air pressure and bounce
-                  heights.
-                </li>
-                <li>
-                  <strong>Experiment</strong>: free-fall-dropping a basketball
-                  200 times.
-                </li>
-                <li>
-                  <strong>Hypothesis</strong>: official basketball models retain
-                  air pressure differently.
-                </li>
-                <li>
-                  <strong>Results</strong>: Significant differences in all
-                  variables (p-values < .05).
-                </li>
-                <li>
-                  <strong>Conclusion</strong>: Material properties significantly
-                  affect a basketball's air pressure retention.
-                </li>
-              </ul>
-              <hr class="custom-hr" />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-8">
-              <h1 class="">Methods and Procedure</h1>
-              <ul class="detailed-list">
-                <li>
-                  <strong>Basketballs Tested</strong>: Five official regulation
-                  basketballs, including a control (NBA Wilson basketball) and
-                  four experimental models (Wilson NCAA, Wilson Evolution, FIBA
-                  Molten, Nike Elite All-Court).
-                </li>
-                <li>
-                  <strong>Equipment</strong>: Electric ball pump (Pumteck MY01)
-                  for air pressure measurements, hardwood basement floor for
-                  testing, and a custom-built drop apparatus made from pine wood
-                  using various power tools.
-                </li>
-                <li>
-                  <strong>Dropping Apparatus</strong>: Basketballs dropped from
-                  a height of 39 inches using a wooden structure, with
-                  recordings taken for bounce height.
-                </li>
-                <li>
-                  <strong>Testing Environment</strong>: Maintained at 65°F and
-                  35-50% humidity to simulate a typical basketball competition
-                  environment.
-                </li>
-                <li>
-                  <strong>Camera Setups</strong>: Three setups with different
-                  camera angles, with offset values applied to account for
-                  perspective distortion in bounce measurements.
-                </li>
-                <li>
-                  <strong>Data Collection</strong>: Each basketball was dropped
-                  200 times over three trials, with air pressure and bounce
-                  heights measured every 10 drops.
-                </li>
-                <li>
-                  <strong>Data Analysis</strong>: Statistical significance was
-                  assessed using ANOVA and post hoc t-tests on air pressure and
-                  bounce heights across trials.
-                </li>
-              </ul>
-              <div
-                class="col-sm-8 d-flex justify-content-center align-items-center"
-              >
-                <img
-                  src="img/bball-models.jpeg"
-                  alt="Basketball Models"
-                  class="img-fluid showcase-img"
-                  style="max-width: 100%; height: auto"
-                />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title blue">
+                <a href="#background">Background</a>
+              </h1>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">
+                Basketballs experience repeated force and material deformation,
+                particularly from dribbling, affecting their bounce, which is
+                explained by elastic collisions. Regulation basketballs differ
+                in size and air pressure, with current technology often
+                measuring bounce but not air retention. This study uses an
+                automated drop system and air pressure gauge to assess which
+                basketballs maintain air pressure and perform optimally.
               </div>
-              <hr class="custom-hr" />
-            </div>
-          </div>
-
-          <div class="row pb-5">
-            <div class="col-sm-8">
-              <h1 class="">Conclusions</h1>
-              <ul class="detailed-list">
-                <li class="pb-3">
-                  <strong>Hypothesis Supported</strong>: Significant differences
-                  in air pressure retention and bounce heights among
-                  basketballs.
+              <ul class="postcard__tagbox">
+                <li class="tag__item">
+                  <a href="#background"
+                    ><i class="fas fa-tag mr-2"></i>Background</a
+                  >
                 </li>
-                <li class="pb-3">
-                  <strong>Statistical Findings</strong>:
-                  <ul class="inside-list">
-                    <li>Air pressure p-value < .0001</li>
-                    <li>First-bounce p-value: .007</li>
-                    <li>Second-bounce p-value < .0001</li>
-                    <li>Third-bounce p-value < .0001</li>
-                  </ul>
+                <li class="tag__item">
+                  <a href="#abstract"
+                    ><i class="fas fa-clock mr-2"></i>Abstract</a
+                  >
                 </li>
-                <li>
-                  <strong>Key Results</strong>:
-                  <ul class="inside-list">
-                    <li>
-                      <strong>Best Performance</strong>: Wilson Evolution excels
-                      in air pressure retention and bounce height.
-                    </li>
-                    <li class="pb-3">
-                      <strong>Material Impact</strong>: Composite leather
-                      enhances performance; fewer grooves improve bounce
-                      consistency.
-                    </li>
-                  </ul>
+                <li class="tag__item">
+                  <a href="#methods"><i class="fas fa-play mr-2"></i>Methods</a>
                 </li>
-                <li>
-                  <strong>Future Studies</strong>
-                  <ul class="inside-list">
-                    <li>
-                      <strong>Exploration Areas</strong>: Investigate material
-                      properties' impact on performance and consider using an
-                      automatic dribbler for more accurate simulations.
-                    </li>
-                    <li>
-                      <strong>Additional Studies</strong>: Examine ball spin
-                      effects on flight dynamics, aiding league regulations.
-                    </li>
-                    <li>
-                      <strong>Contribution</strong>: Establishes a baseline for
-                      understanding how material differences affect basketball
-                      performance.
-                    </li>
-                  </ul>
+                <li class="tag__item">
+                  <a href="#conclusion"
+                    ><i class="fas fa-play mr-2"></i>Conclusion</a
+                  >
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
+          <article class="postcard light red" id="abstract">
+            <a class="postcard__img_link" href="#">
+              <img
+                class="postcard__img"
+                src="https://picsum.photos/501/500"
+                alt="Image Title"
+              />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title red"><a href="#">Abstract</a></h1>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">
+                The study investigates how different basketball models affect
+                air pressure retention and bounce height by dropping them 200
+                times in a controlled experiment. Results showed significant
+                differences across models (p-values < .05), indicating that
+                material properties play a crucial role in air pressure
+                retention.
+              </div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item">
+                  <a href="#background"
+                    ><i class="fas fa-tag mr-2"></i>Background</a
+                  >
+                </li>
+                <li class="tag__item">
+                  <a href="#abstract"
+                    ><i class="fas fa-clock mr-2"></i>Abstract</a
+                  >
+                </li>
+                <li class="tag__item">
+                  <a href="#methods"><i class="fas fa-play mr-2"></i>Methods</a>
+                </li>
+                <li class="tag__item">
+                  <a href="#conclusion"
+                    ><i class="fas fa-play mr-2"></i>Conclusion</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="postcard light green" id="methods">
+            <a class="postcard__img_link" href="#">
+              <img
+                class="postcard__img"
+                src="https://picsum.photos/500/501"
+                alt="Image Title"
+              />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title green">
+                <a href="#">Methods</a>
+              </h1>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">
+                The experiment tested five regulation basketballs with a
+                custom-built dropping-apparatus. Air pressure and bounce heights
+                were observed with multiple camera setups for accurate
+                measurement. The data was analyzed using standardized
+                statistical significance tests.
+              </div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item">
+                  <a href="#background"
+                    ><i class="fas fa-tag mr-2"></i>Background</a
+                  >
+                </li>
+                <li class="tag__item">
+                  <a href="#abstract"
+                    ><i class="fas fa-clock mr-2"></i>Abstract</a
+                  >
+                </li>
+                <li class="tag__item">
+                  <a href="#methods"><i class="fas fa-play mr-2"></i>Methods</a>
+                </li>
+                <li class="tag__item">
+                  <a href="#conclusion"
+                    ><i class="fas fa-play mr-2"></i>Conclusion</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </article>
+          <article class="postcard light yellow" id="conclusion">
+            <a class="postcard__img_link" href="#">
+              <img
+                class="postcard__img"
+                src="https://picsum.photos/501/501"
+                alt="Image Title"
+              />
+            </a>
+            <div class="postcard__text t-dark">
+              <h1 class="postcard__title yellow">
+                <a href="#">Conclusion</a>
+              </h1>
+              <div class="postcard__bar"></div>
+              <div class="postcard__preview-txt">
+                The study confirms that basketballs exhibit significant
+                differences in air pressure retention and bounce heights, with
+                the Wilson Evolution performing best due to its composite
+                leather and minimal grooves. Statistical analysis supports these
+                findings with highly significant p-values. Future research
+                should explore the role of material properties, use automated
+                testing tools, and investigate ball spin's impact on flight
+                dynamics to inform league standards.
+              </div>
+              <ul class="postcard__tagbox">
+                <li class="tag__item">
+                  <a href="#background"
+                    ><i class="fas fa-tag mr-2"></i>Background</a
+                  >
+                </li>
+                <li class="tag__item">
+                  <a href="#abstract"
+                    ><i class="fas fa-clock mr-2"></i>Abstract</a
+                  >
+                </li>
+                <li class="tag__item">
+                  <a href="#methods"><i class="fas fa-play mr-2"></i>Methods</a>
+                </li>
+                <li class="tag__item">
+                  <a href="#conclusion"
+                    ><i class="fas fa-play mr-2"></i>Conclusion</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </article>
         </div>
       </section>
 
