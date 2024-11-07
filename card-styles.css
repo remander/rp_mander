@@ -105,6 +105,7 @@ a, a:hover {
     text-overflow: ellipsis;
     text-align: left;
     height: 100%;
+    font-size: 1.4rem;
 }
 
 .postcard .postcard__tagbox {
@@ -125,6 +126,7 @@ a, a:hover {
     cursor: default;
     user-select: none;
     transition: background-color 0.3s;
+    font-size: 1rem;
 }
 
 .postcard .postcard__tagbox .tag__item:hover {
