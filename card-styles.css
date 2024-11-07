@@ -105,7 +105,7 @@ a, a:hover {
     text-overflow: ellipsis;
     text-align: left;
     height: 100%;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .postcard .postcard__tagbox {
@@ -158,12 +158,16 @@ a, a:hover {
         font-size: 2rem;
     }
 
+    .postcard__title__1 {
+        font-size: 3rem;
+    }
+
     .postcard .postcard__tagbox {
         justify-content: start;
     }
 
     .postcard .postcard__img {
-        max-width: 300px;
+        max-width: 40%;
         max-height: 100%;
         transition: transform 0.3s ease;
     }
@@ -270,6 +274,26 @@ a, a:hover {
 
 .blue:nth-child(2n)::before {
     background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+}
+
+.postcard .postcard__tagbox .orange.play:hover {
+    background: orange;
+}
+
+.orange .postcard__title:hover {
+    color: orange;
+}
+
+.orange .postcard__bar {
+    background-color: orange;
+}
+
+.orange::before {
+    background-image: linear-gradient(-30deg, rgba(189, 132, 0, 0.1), transparent 50%);
+}
+
+.orange:nth-child(2n)::before {
+    background-image: linear-gradient(30deg, rgba(0, 189, 132, 0.1), transparent 50%);
 }
 
 .postcard .postcard__tagbox .red.play:hover {

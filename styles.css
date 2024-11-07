@@ -31,6 +31,10 @@
     padding-right: 10%;
 }
 
+.p1-text {
+    font-size: 1.2rem;
+}
+
 /* Ensure images do not overflow their container */
 .main-container, .showcase {
     overflow: hidden; /* Hide overflow */
