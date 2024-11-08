@@ -146,6 +146,23 @@ a, a:hover {
     background-color: orange;
 }
 
+/* Custom hover colors for tag items */
+.postcard .postcard__tagbox .tag__item.blue:hover {
+    background-color: #0076bd;
+}
+
+.postcard .postcard__tagbox .tag__item.red:hover {
+    background-color: rgba(210, 74, 74, 0.728);
+}
+
+.postcard .postcard__tagbox .tag__item.green:hover {
+    background-color: green;
+}
+
+.postcard .postcard__tagbox .tag__item.yellow:hover {
+    background-color: #bdbb49;
+}
+
 .postcard:before {
     content: "";
     position: absolute;
@@ -213,7 +230,7 @@ a, a:hover {
     }
 
     .postcard:hover .postcard__img, .postcard:hover .postcard__img__lg, .postcard:hover .postcard__img__md {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     /* Alternates the placement of the images on the cards */
