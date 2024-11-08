@@ -20,7 +20,7 @@ var myBarChart = new Chart(ctx, {
     ], // X-axis labels
     datasets: [
       {
-        label: "Dummy Data", // Name the series
+        label: "PSI Average Value", // Name the series
         data: dataValues, // Y-axis data
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
