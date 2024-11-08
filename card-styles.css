@@ -310,7 +310,7 @@ a, a:hover {
 }
 
 .green::before {
-    background-image: linear-gradient(-30deg, green, transparent 50%);
+    background-image: linear-gradient(-30deg, rgba(3, 145, 3, 0.089), transparent 50%);
 }
 
 .green:nth-child(2n)::before {
@@ -391,7 +391,7 @@ a, a:hover {
 }
 
 .yellow::before {
-    background-image: linear-gradient(-30deg, rgba(189, 187, 73, 0.1), transparent 50%);
+    background-image: linear-gradient(-30deg, rgba(189, 187, 73, 0.198), transparent 50%);
 }
 
 .yellow:nth-child(2n)::before {
