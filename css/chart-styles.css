@@ -1,7 +1,7 @@
 
 .chart-container {
-        width: 40%;
-        max-width: 50%;
+        width: 70%;
+        max-width: 80%;
         margin: auto;
         height:50%;
         border: .5px solid #000;
@@ -9,6 +9,6 @@
       }
 
 canvas {
-        width: 80%;
+        width: 100%;
         height: auto;
       }
