@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-
 body {
     font-family: "Outfit", cursive;
     font-size: 16px;
@@ -217,7 +216,6 @@ a, a:hover {
         transform: scale(1.1);
     }
 
-
     /* Alternates the placement of the images on the cards */
     .postcard:nth-child(2n+1) {
         flex-direction: row;
@@ -258,6 +256,25 @@ a, a:hover {
 
     .postcard.light .postcard__text:before {
         background-color: #e1e5ea;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .postcard .postcard__img {
+        max-height: 30rem; /* Decrease the height for smaller screens */
+        height: auto;
+    }
+
+    .postcard .postcard__img__md {
+        display:none;
+        max-height: 30rem; /* Decrease the height for smaller screens */
+        height: auto;
+    }
+
+    .postcard .postcard__img__lg {
+        display:none;
+        max-height: 30rem; /* Decrease the height for smaller screens */
+        height: auto;
     }
 }
 
