@@ -107,10 +107,6 @@
 
 /* Adjust padding for extra small screens */
 @media (max-width: 500px) {
-    .main-container {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
 
     .showcase h1, .procedure h1 {
         font-size: 2em;
