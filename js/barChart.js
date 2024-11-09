@@ -8,6 +8,9 @@ var stdDevs = [0.024, 0.035, 0.025, 0.044, 0.028];
 var dataValues = [8.482, 8.442, 8.481, 8.446, 8.438];
 
 // Create a new Chart instance
+
+Chart.defaults.font.family = "Outfit, sans-serif";
+Chart.defaults.color = "#000";
 var myBarChart = new Chart(ctx, {
   type: "bar", // Specify the chart type
   data: {
@@ -58,23 +61,23 @@ var myBarChart = new Chart(ctx, {
           bottom: 30,
         },
       },
-      annotation: {
-        annotations: dataValues.map((value, index) => ({
-          type: "line",
-          mode: "vertical",
-          scaleID: "x",
-          value: index,
-          borderColor: "rgba(0, 0, 0, 0.5)",
-          borderWidth: 2,
-          yMin: value - stdDevs[index], // Starting point of the line on the y-axis
-          yMax: value + stdDevs[index], // Ending point of the line on the y-axis
-          label: {
-            content: `±${stdDevs[index]}`,
-            enabled: true,
-            position: "top",
-          },
-        })),
-      },
+      // annotation: {
+      //   annotations: dataValues.map((value, index) => ({
+      //     type: "line",
+      //     mode: "vertical",
+      //     scaleID: "x",
+      //     value: index,
+      //     borderColor: "rgba(0, 0, 0, 0.5)",
+      //     borderWidth: 2,
+      //     yMin: value - stdDevs[index], // Starting point of the line on the y-axis
+      //     yMax: value + stdDevs[index], // Ending point of the line on the y-axis
+      //     label: {
+      //       content: `±${stdDevs[index]}`,
+      //       enabled: true,
+      //       position: "top",
+      //     },
+      //   })),
+      // },
     },
     scales: {
       x: {
@@ -90,7 +93,7 @@ var myBarChart = new Chart(ctx, {
       y: {
         title: {
           display: true,
-          text: "PSI Levels", // Y-axis title
+          text: "Air Pressure (PSI)", // Y-axis title
           font: {
             size: 16, // Font size
           },
