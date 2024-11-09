@@ -91,6 +91,7 @@ var myBarChart = new Chart(ctx, {
           text: "Basketball Models", // X-axis title
           font: {
             size: 16, // Font size
+            align: "center",
           },
         },
         beginAtZero: true, // Ensure the x-axis starts at zero
