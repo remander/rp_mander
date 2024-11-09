@@ -78,9 +78,23 @@ var myBarChart = new Chart(ctx, {
     },
     scales: {
       x: {
+        title: {
+          display: true,
+          text: "Basketball Models", // X-axis title
+          font: {
+            size: 16, // Font size
+          },
+        },
         beginAtZero: true, // Ensure the x-axis starts at zero
       },
       y: {
+        title: {
+          display: true,
+          text: "PSI Levels", // Y-axis title
+          font: {
+            size: 16, // Font size
+          },
+        },
         beginAtZero: true, // Ensure the y-axis starts at zero
         min: 8.4,
         max: 8.5,
