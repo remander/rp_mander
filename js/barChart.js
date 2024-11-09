@@ -1,10 +1,15 @@
 // Get the context of the canvas element we want to select
 var ctx = document.getElementById("myBarChart").getContext("2d");
 
-// Dummy data for standard deviation
+// Standard deviation values for possible error bars
 var stdDevs = [0.024, 0.035, 0.025, 0.044, 0.028];
 
 // Data values
+async function getData() {
+  const response = await fetch("../data/air-pressure-calculated.csv");
+  const data = await response.text(); // CSV in text format
+}
+
 var dataValues = [8.482, 8.442, 8.481, 8.446, 8.438];
 
 // Create a new Chart instance
