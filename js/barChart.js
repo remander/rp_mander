@@ -45,7 +45,7 @@ var myBarChart = new Chart(ctx, {
   },
   options: {
     responsive: true,
-    maintainAspectRatio: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         display: false, // Disable the legend
