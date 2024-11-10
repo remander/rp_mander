@@ -6,7 +6,7 @@ var stdDevs = [0.024, 0.035, 0.025, 0.044, 0.028];
 
 // Function to fetch and parse CSV data
 async function getData() {
-  const response = await fetch("../data/air-pressure-calculated.csv");
+  const response = await fetch("data/air-pressure-calculated.csv");
   const data = await response.text(); // CSV in text format
 
   const xModels = []; // x-axis labels
