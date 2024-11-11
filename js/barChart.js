@@ -71,7 +71,7 @@ async function createChart() {
         },
         title: {
           display: true, // Enable the title
-          text: "Basketball Performance in Terms of PSI Retention Levels", // Title text
+          text: "Basketball Performance in Terms of PSI Retention Levels (200-drop trial)", // Title text
           font: {
             size: 18, // Font size
           },
